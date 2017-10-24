@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+canvas {
+  width: 640px;
+  height: 480px;
+  margin: 20px;
+  border: 1px solid black;
+  box-shadow: 5px 5px #777;
+}
+
+@font-face {
+  font-family: 'hyperspace';
+  src: url('./Hyperspace Bold.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
